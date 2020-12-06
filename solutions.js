@@ -13,24 +13,43 @@
 
 // console.log: to print any values u want to showup in the console of the browser.
 
-function checkPalindrome(word){
+// function checkPalindrome(word){
    
-   var splitWord = word.split("");
+//    var splitWord = word.split("");
 
-   var reverseArray = splitWord.reverse();
+//    var reverseArray = splitWord.reverse();
 
-   var joinArray = reverseArray.join("");
+//    var joinArray = reverseArray.join("");
    
-   if(word.toLowerCase() === joinArray.toLowerCase()){
-       return true;
-   }else{
-       return false;
-   }
+//    if(word.toLowerCase() === joinArray.toLowerCase()){
+//        return true;
+//    }else{
+//        return false;
+//    }
 
- }
+//  }
 
- // True exp.
- console.log(checkPalindrome("Radar"));
- // False exp
- console.log(checkPalindrome("Borscht"));
+//  // True exp.
+//  console.log(checkPalindrome("Radar"));
+//  // False exp
+//  console.log(checkPalindrome("Borscht"));
+
+// //==================================
+
+
+
+// function sumArray(array){
+//     var sumOfArray = 0;
+//     for(var i = 0; i < array.length; i++){
+   
+//         sumOfArray += array[i];
+       
+//     }
+//     return sumOfArray
+// }
+
+
+
+// console.log("The sum of array numbers is: "+sumArray([1,2,3,4,5,6]));
+
 
