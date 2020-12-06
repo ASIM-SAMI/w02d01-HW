@@ -13,72 +13,78 @@
 
 // console.log: to print any values u want to showup in the console of the browser.
 
-// function checkPalindrome(word){
+function checkPalindrome(word){
    
-//    var splitWord = word.split("");
+   var splitWord = word.split("");
 
-//    var reverseArray = splitWord.reverse();
+   var reverseArray = splitWord.reverse();
 
-//    var joinArray = reverseArray.join("");
+   var joinArray = reverseArray.join("");
    
-//    if(word.toLowerCase() === joinArray.toLowerCase()){
-//        return true;
-//    }else{
-//        return false;
-//    }
+   if(word.toLowerCase() === joinArray.toLowerCase()){
+       return true;
+   }else{
+       return false;
+   }
 
-//  }
+ }
 
-//  // True exp.
-//  console.log(checkPalindrome("Radar"));
-//  // False exp
-//  console.log(checkPalindrome("Borscht"));
+ // True exp.
+ console.log(checkPalindrome("Radar"));
+ // False exp
+ console.log(checkPalindrome("Borscht"));
 
-// //==================================
+//==================================
 
 
 
-// function sumArray(array){
-//     var sumOfArray = 0;
-//     for(var i = 0; i < array.length; i++){
+function sumArray(array){
+    var sumOfArray = 0;
+    for(var i = 0; i < array.length; i++){
    
-//         sumOfArray += array[i];
+        sumOfArray += array[i];
        
-//     }
-//     return sumOfArray
-// }
+    }
+    return sumOfArray
+}
 
 
+//==================================
 
-// console.log("The sum of array numbers is: "+sumArray([1,2,3,4,5,6]));
+
+console.log("The sum of array numbers is: "+sumArray([1,2,3,4,5,6]));
 
 
-// function checkPrime(num){
+function checkPrime(num){
 
-//     for(var i = 2; i < num; i++){
-//         if(num % i === 0){
-//             return false;
-//         }
-//     }
+    for(var i = 2; i < num; i++){
+        if(num % i === 0){
+            return false;
+        }
+    }
 
-//     return num > 1;
+    return num > 1;
 
-// }
+}
 
-// console.log(checkPrime(2))
+console.log(checkPrime(2))
 
-// function printPrimes(num){
-//     let primeNumber = "";
-//     for(var i = 0; i <= num; i++){
-//         if(checkPrime(i)){
-//             primeNumber += ""+i+" it's a prime number.\n\n";
-//         }
+function printPrimes(num){
+    let primeNumber = "";
+    for(var i = 0; i <= num; i++){
+        if(checkPrime(i)){
+            primeNumber += ""+i+" it's a prime number.\n\n";
+        }
         
-//     }
-//    return primeNumber;
-// }
+    }
+   return primeNumber;
+}
 
-// console.log(printPrimes(97));
+console.log(printPrimes(97));
+
+
+
+//==================================
 
 
 function randomMove(){
@@ -97,6 +103,8 @@ function randomMove(){
     }
 
 }
+
+
 
 function rockPaperScissors(playOfUser){
     let playOfAI = randomMove();
@@ -130,4 +138,4 @@ if(rockPaperScissorsGames === 1){
 
 }
 
-
+//==================================
