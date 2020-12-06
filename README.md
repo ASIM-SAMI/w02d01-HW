@@ -20,7 +20,7 @@ in the file `index.html` load the script `solutions.js` and solve the questions 
 ## Deliverables
 
 Answer the questions inside your `solutions.js` code and submit your homework via github pull request.
-You should take a screenshot of your console wiht the results. If the outpud does not fit in one screenshot use more than one mut no more thatn three, plaese. In case, make your zoom level in the borwser lower to fit more charachters in one screenshot.
+You should take a screenshot of your console with the results. If the output does not fit in one screenshot use more than one but no more than three, please. In case there is not enough space, make your zoom level in the borwser lower to fit more charachters in one screenshot.
 
 ## Technical Requirements
 
