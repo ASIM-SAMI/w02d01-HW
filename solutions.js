@@ -12,3 +12,25 @@
 // return: give us the values when we call the function, after execute the codes in that function.
 
 // console.log: to print any values u want to showup in the console of the browser.
+
+function checkPalindrome(word){
+   
+   var splitWord = word.split("");
+
+   var reverseArray = splitWord.reverse();
+
+   var joinArray = reverseArray.join("");
+   
+   if(word.toLowerCase() === joinArray.toLowerCase()){
+       return true;
+   }else{
+       return false;
+   }
+
+ }
+
+ // True exp.
+ console.log(checkPalindrome("Radar"));
+ // False exp
+ console.log(checkPalindrome("Borscht"));
+
