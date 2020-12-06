@@ -29,13 +29,7 @@ You should take a screenshot of your console wiht the results. If the outpud doe
 ## Submission Guidelines
 
 - Submit your homework via github pull request and please don't forget to fill out the form!
-- Need a reminder on how to submit homework?
-
-## Resources
-
-- Review the class notes and your work from today
-- 
----
+- Need a reminder on how to submit homework? [here](https://git.generalassemb.ly/seir-alahsa/w01d01/blob/master/notes/note_w01d01.03_hw_submission/note_w01d01-homework-submission.md)
 
 ## Verbal Questions 
 
