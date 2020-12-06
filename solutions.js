@@ -53,3 +53,29 @@
 // console.log("The sum of array numbers is: "+sumArray([1,2,3,4,5,6]));
 
 
+function checkPrime(num){
+
+    for(var i = 2; i < num; i++){
+        if(num % i === 0){
+            return false;
+        }
+    }
+
+    return num > 1;
+
+}
+
+console.log(checkPrime(2))
+
+function printPrimes(num){
+    let primeNumber = "";
+    for(var i = 0; i <= num; i++){
+        if(checkPrime(i)){
+            primeNumber += ""+i+" it's a prime number.\n\n";
+        }
+        
+    }
+   return primeNumber;
+}
+
+console.log(printPrimes(97));
