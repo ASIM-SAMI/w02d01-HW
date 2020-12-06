@@ -53,29 +53,81 @@
 // console.log("The sum of array numbers is: "+sumArray([1,2,3,4,5,6]));
 
 
-function checkPrime(num){
+// function checkPrime(num){
 
-    for(var i = 2; i < num; i++){
-        if(num % i === 0){
-            return false;
-        }
-    }
+//     for(var i = 2; i < num; i++){
+//         if(num % i === 0){
+//             return false;
+//         }
+//     }
 
-    return num > 1;
+//     return num > 1;
 
-}
+// }
 
-console.log(checkPrime(2))
+// console.log(checkPrime(2))
 
-function printPrimes(num){
-    let primeNumber = "";
-    for(var i = 0; i <= num; i++){
-        if(checkPrime(i)){
-            primeNumber += ""+i+" it's a prime number.\n\n";
-        }
+// function printPrimes(num){
+//     let primeNumber = "";
+//     for(var i = 0; i <= num; i++){
+//         if(checkPrime(i)){
+//             primeNumber += ""+i+" it's a prime number.\n\n";
+//         }
         
+//     }
+//    return primeNumber;
+// }
+
+// console.log(printPrimes(97));
+
+
+function randomMove(){
+
+
+     let randomNum = Math.floor(Math.random() * 3); 
+     if(randomNum === 0){
+        return "Scissors";
+     }else if(randomNum === 1){
+        return "Rock";
+  
+     }else if(randomNum === 2){
+        return "Paper";
+    
+     
     }
-   return primeNumber;
+
 }
 
-console.log(printPrimes(97));
+function rockPaperScissors(playOfUser){
+    let playOfAI = randomMove();
+    if(
+        (playOfUser === "Paper" && playOfAI === "Rock") || 
+       (playOfUser === "Scissors" && playOfAI === "Paper")||
+       (playOfUser === "Rock" && playOfAI === "Scissors")
+       ){
+            return 1;
+       }
+       else if(
+           (playOfUser === "Rock" && playOfAI === "Paper") ||
+           (playOfUser === "Paper" && playOfAI === "Scissors")||
+           (playOfUser === "Scissors" && playOfAI === "Rock")
+           ){
+            return 0;
+               }else if(playOfUser === playOfAI){
+                   return 2;
+               }
+
+}
+let rockPaperScissorsGames =
+rockPaperScissors(prompt("Enter your move. Try me :) => ( Rock, Paper, Scissors) : "));
+if(rockPaperScissorsGames === 1){
+    console.log("Congratulations You Win!! :) ");
+}else if(rockPaperScissorsGames === 0){
+    console.log("You lose :( ");
+
+}else if(rockPaperScissorsGames === 2){
+    console.log("hahaha we equals!! try again with me!");
+
+}
+
+
