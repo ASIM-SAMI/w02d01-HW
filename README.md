@@ -254,6 +254,23 @@ Your commit message should read something like: <br>
 "hfm insert dash completed"
 </details>
 
+## Deliverables
+
+Answer the questions inside your `solutions.js` code and submit your homework using pull requests.
+
+## Technical Requirements
+
+- The JavaScript file MUST run without syntax errors. If there are errors you can't solve, comment them out and leave a comment above explaining what is wrong
+
+## Submission Guidelines
+
+- Submit your homework via github pull requests and please don't forget to fill out the form!
+- Need a reminder on how to submit homework? Take a look at the [Homework submission process](https://git.generalassemb.ly/seir-alahsa/w01d01/blob/master/notes/note_w01d01.03_hw_submission/note_w01d01-homework-submission.md)
+
+## Resources
+
+- Review the class notes and your work from today
+
 ---
 
 *Copyright 2018, General Assembly Space. Licensed under [CC-BY-NC-SA, 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)*
